@@ -1,0 +1,51 @@
+.container{
+    height: 350px;
+    width: 100%;
+ 
+}
+.upper{
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(45,57,75);
+}
+.upper>div>img{
+    width: 60px;
+}
+.mid{
+    height: 50px;
+    width: 100%;
+
+    background-color: rgb(34,34,34);
+}
+.mid>div>p{
+    color: white;
+}
+.middle{
+    height: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+}
+.left{
+    margin-left: 300px;
+}
+.i{
+   margin-left: 300px;
+   margin-top: 40px;
+}
+.s{
+    margin-left:"50px";
+    margin-top:"50px"
+}
+.low>div{
+    width: 70%;
+    margin-left: 250px;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}

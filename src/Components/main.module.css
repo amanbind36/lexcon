@@ -1,0 +1,46 @@
+.main>div>div>:hover{
+    transform: scale(1.2);
+}
+button{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: aqua;
+}
+.watch{
+    
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.watch>div{
+   
+    width: 18%;
+    margin: 2%;
+}
+.img{
+    height: 80%;
+    
+    width: 100%;
+}
+.watch>div>div>button{
+    height: 100%;
+    width: 100%;
+    margin-left: -0px;
+    margin-top: -0px;
+    color: red;
+    border-radius: 0px;
+}
+.watch>div>div>button:hover{
+background-color: beige;
+}
+.free{
+    display: flex;
+    height: 150px;
+    border: 1px solid red;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(221,221,219);
+}
